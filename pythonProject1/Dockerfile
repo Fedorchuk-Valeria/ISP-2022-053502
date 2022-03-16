@@ -4,4 +4,4 @@ WORKDIR /lab1
 
 COPY main.py Test.pe User_interface.py ./
 
-CMD 
+CMD ["python", "main.py"]
