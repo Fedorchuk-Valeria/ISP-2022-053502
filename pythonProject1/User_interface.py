@@ -12,6 +12,9 @@ class UserInterface:
         while data == '':
             print('Error input! Try again:')
             data = input()
+        last_symbol = data[len(data)-1]
+        if last_symbol != '.' and last_symbol != '!' and last_symbol != '?':
+            data += '.'
         self.text = Text(data)
 
     @staticmethod
@@ -37,6 +40,9 @@ class UserInterface:
         repetitions = self.text.repetitions_of_n_grams(n)
         print("Enter K:")
         k = self.check_input()
+        while k > len(repetitions):
+            print('Error input! Try again:')
+            k = self.check_input()
         i = 0
         while i < k:
             print(repetitions[i])
