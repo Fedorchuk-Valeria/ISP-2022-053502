@@ -59,6 +59,9 @@ class Text:
     def repetitions_of_n_grams(self, n: int) -> list:
         """Count repetitions of n-grams."""
         new_text = self._only_words.replace(' ', '')
+        if n > len(new_text):
+            n = len(new_text)
+            print(f"N change to {n}")
         repetitions = {}
         for i in range(len(new_text)-n):
             if repetitions.get(new_text[i:i+n], -1) == -1:
