@@ -1,0 +1,68 @@
+{
+	"type": "function",
+	"code_arg": {
+		"argcount": 1,
+		"posonlyargcount": 0,
+		"kwonlyargcount": 0,
+		"nlocals": 2,
+		"stacksize": 4,
+		"flags": 67,
+		"code": [
+			100,
+			1,
+			125,
+			1,
+			116,
+			0,
+			160,
+			1,
+			124,
+			0,
+			124,
+			1,
+			20,
+			0,
+			116,
+			2,
+			20,
+			0,
+			161,
+			1,
+			83,
+			0
+		],
+		"consts": [
+			null,
+			123
+		],
+		"names": [
+			"math",
+			"sin",
+			"c"
+		],
+		"varnames": [
+			"x",
+			"a"
+		],
+		"filename": "/home/valeria/учёба/4sem/isp/lab2/func.py",
+		"name": "f",
+		"firstlineno": 13,
+		"lnotab": [
+			0,
+			1,
+			4,
+			1
+		],
+		"freevars": [
+			
+		],
+		"cellvars": [
+			
+		]
+	},
+	"globals": {
+		"math": "module",
+		"c": 42
+	},
+	"name": "f"
+}

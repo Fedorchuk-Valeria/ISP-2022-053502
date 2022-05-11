@@ -1,0 +1,45 @@
+type: class
+name: B
+bases: []
+dict:
+  n: 1
+  m: 2
+  sum:
+    type: function
+    code_arg:
+      argcount: 1
+      posonlyargcount: 0
+      kwonlyargcount: 0
+      nlocals: 1
+      stacksize: 2
+      flags: 67
+      code:
+        - 124
+        - 0
+        - 106
+        - 0
+        - 124
+        - 0
+        - 106
+        - 1
+        - 23
+        - 0
+        - 83
+        - 0
+      consts:
+        -
+      names:
+        - m
+        - n
+      varnames:
+        - self
+      filename: /home/valeria/учёба/4sem/isp/lab2/tests/examples/cls2.py
+      name: sum
+      firstlineno: 5
+      lnotab:
+        - 0
+        - 1
+      freevars: []
+      cellvars: []
+    globals: {}
+    name: sum

@@ -1,0 +1,22 @@
+type = "function"
+name = "m"
+
+[code_arg]
+argcount = 2
+posonlyargcount = 0
+kwonlyargcount = 0
+nlocals = 3
+stacksize = 2
+flags = 67
+code = [ 124, 0, 124, 1, 23, 0, 125, 2, 124, 2, 83, 0,]
+consts = [ "None",]
+names = []
+varnames = [ "name", "surname", "fullname",]
+filename = "/home/valeria/учёба/4sem/isp/lab2/tests/examples/function2.py"
+name = "m"
+firstlineno = 1
+lnotab = [ 0, 1, 8, 1,]
+freevars = []
+cellvars = []
+
+[globals]

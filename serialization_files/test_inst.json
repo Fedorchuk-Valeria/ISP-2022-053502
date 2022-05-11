@@ -1,0 +1,133 @@
+{
+	"class": {
+		"name": "A",
+		"bases": [
+			
+		],
+		"dict": {
+			"number": 1,
+			"__init__": {
+				"type": "function",
+				"code_arg": {
+					"argcount": 1,
+					"posonlyargcount": 0,
+					"kwonlyargcount": 0,
+					"nlocals": 1,
+					"stacksize": 2,
+					"flags": 67,
+					"code": [
+						100,
+						1,
+						124,
+						0,
+						95,
+						0,
+						100,
+						2,
+						124,
+						0,
+						95,
+						1,
+						100,
+						0,
+						83,
+						0
+					],
+					"consts": [
+						null,
+						"1",
+						3
+					],
+					"names": [
+						"name",
+						"size"
+					],
+					"varnames": [
+						"self"
+					],
+					"filename": "/home/valeria/учёба/4sem/isp/lab2/cls.py",
+					"name": "__init__",
+					"firstlineno": 4,
+					"lnotab": [
+						0,
+						1,
+						6,
+						1
+					],
+					"freevars": [
+						
+					],
+					"cellvars": [
+						
+					]
+				},
+				"globals": {
+					
+				},
+				"name": "__init__"
+			},
+			"resize": {
+				"type": "function",
+				"code_arg": {
+					"argcount": 1,
+					"posonlyargcount": 0,
+					"kwonlyargcount": 0,
+					"nlocals": 1,
+					"stacksize": 3,
+					"flags": 67,
+					"code": [
+						124,
+						0,
+						4,
+						0,
+						106,
+						0,
+						100,
+						1,
+						55,
+						0,
+						2,
+						0,
+						95,
+						0,
+						100,
+						0,
+						83,
+						0
+					],
+					"consts": [
+						null,
+						1
+					],
+					"names": [
+						"size"
+					],
+					"varnames": [
+						"self"
+					],
+					"filename": "/home/valeria/учёба/4sem/isp/lab2/cls.py",
+					"name": "resize",
+					"firstlineno": 8,
+					"lnotab": [
+						0,
+						1
+					],
+					"freevars": [
+						
+					],
+					"cellvars": [
+						
+					]
+				},
+				"globals": {
+					
+				},
+				"name": "resize"
+			}
+		}
+	},
+	"dict": {
+		"name": "1",
+		"size": 3
+	}
+}

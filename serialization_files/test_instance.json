@@ -1,0 +1,142 @@
+{
+	"type": "instance",
+	"class": {
+		"type": "class",
+		"name": "C",
+		"bases": [
+			
+		],
+		"dict": {
+			"a": 2,
+			"c": 3,
+			"t": "pop",
+			"ch_a": {
+				"type": "function",
+				"code_arg": {
+					"argcount": 2,
+					"posonlyargcount": 0,
+					"kwonlyargcount": 0,
+					"nlocals": 2,
+					"stacksize": 3,
+					"flags": 67,
+					"code": [
+						124,
+						0,
+						4,
+						0,
+						106,
+						0,
+						124,
+						1,
+						55,
+						0,
+						2,
+						0,
+						95,
+						0,
+						100,
+						0,
+						83,
+						0
+					],
+					"consts": [
+						null
+					],
+					"names": [
+						"a"
+					],
+					"varnames": [
+						"self",
+						"num"
+					],
+					"filename": "/home/valeria/учёба/4sem/isp/lab2/tests/examples/cls3.py",
+					"name": "ch_a",
+					"firstlineno": 6,
+					"lnotab": [
+						0,
+						1
+					],
+					"freevars": [
+						
+					],
+					"cellvars": [
+						
+					]
+				},
+				"globals": {
+					
+				},
+				"name": "ch_a"
+			},
+			"ch_t": {
+				"type": "function",
+				"code_arg": {
+					"argcount": 1,
+					"posonlyargcount": 0,
+					"kwonlyargcount": 0,
+					"nlocals": 1,
+					"stacksize": 4,
+					"flags": 67,
+					"code": [
+						124,
+						0,
+						4,
+						0,
+						106,
+						0,
+						116,
+						1,
+						124,
+						0,
+						106,
+						2,
+						131,
+						1,
+						55,
+						0,
+						2,
+						0,
+						95,
+						0,
+						100,
+						0,
+						83,
+						0
+					],
+					"consts": [
+						null
+					],
+					"names": [
+						"t",
+						"str",
+						"c"
+					],
+					"varnames": [
+						"self"
+					],
+					"filename": "/home/valeria/учёба/4sem/isp/lab2/tests/examples/cls3.py",
+					"name": "ch_t",
+					"firstlineno": 9,
+					"lnotab": [
+						0,
+						1
+					],
+					"freevars": [
+						
+					],
+					"cellvars": [
+						
+					]
+				},
+				"globals": {
+					
+				},
+				"name": "ch_t"
+			}
+		}
+	},
+	"dict": {
+		"a": 3,
+		"c": 4
+	}
+}
